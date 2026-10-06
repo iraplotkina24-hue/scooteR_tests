@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "9c9526ee-0a83-426c-9145-dc1d62d7c3c7",
+		"name": "диплом 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "55430014",
+		"_collection_link": "https://iraplotkina24-1781657.postman.co/workspace/Ira-Plotkina's-Workspace~2a2ed180-9def-44ae-8dc6-335cdcb00f36/collection/55430014-9c9526ee-0a83-426c-9145-dc1d62d7c3c7?action=share&source=collection_link&creator=55430014"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"login\": \"ira\",\n    \"password\": \"555\",\n    \"firstName\": \"ira\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/courier\n",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_order_1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Naruto\",\n    \"lastName\": \"Uchiha\",\n    \"address\": \"Konoha, 142 apt.\",\n    \"metroStation\": 1,\n    \"phone\": \"+7 800 355 35 35\",\n    \"rentTime\": 5,\n    \"deliveryDate\": \"2020-06-06\",\n    \"comment\": \"Saske, come back to Konoha\",\n    \"color\": [\n        \"BLACK\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_order_2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Naruto\",\n    \"lastName\": \"Uchiha\",\n    \"address\": \"Konoha, 142 apt.\",\n    \"metroStation\": 67,\n    \"phone\": \"+7 800 355 35 35\",\n    \"rentTime\": 5,\n    \"deliveryDate\": \"2020-06-06\",\n    \"comment\": \"Saske, come back to Konoha\",\n    \"color\": [\n        \"BLACK\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_order_3",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Naruto\",\n    \"lastName\": \"Uchiha\",\n    \"address\": \"Konoha, 142 apt.\",\n    \"metroStation\": 20,\n    \"phone\": \"+7 800 355 35 35\",\n    \"rentTime\": 5,\n    \"deliveryDate\": \"2020-06-06\",\n    \"comment\": \"Saske, come back to Konoha\",\n    \"color\": [\n        \"BLACK\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_order_4",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Naruto\",\n    \"lastName\": \"Uchiha\",\n    \"address\": \"Konoha, 142 apt.\",\n    \"metroStation\": 16,\n    \"phone\": \"+7 800 355 35 35\",\n    \"rentTime\": 5,\n    \"deliveryDate\": \"2020-06-06\",\n    \"comment\": \"Saske, come back to Konoha\",\n    \"color\": [\n        \"BLACK\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order_accept_2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders/accept/4?courierId=1",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"accept",
+						"4"
+					],
+					"query": [
+						{
+							"key": "courierId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order_accept_3",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders/accept/11?courierId=1",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"accept",
+						"11"
+					],
+					"query": [
+						{
+							"key": "courierId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order_finish_2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 9\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders/finish/9",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"finish",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order-cancel_1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders/cancel?track=346096",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"cancel"
+					],
+					"query": [
+						{
+							"key": "track",
+							"value": "346096"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_all_orders",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://33970e00-56f8-42eb-a043-d4bd295a88e4.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"33970e00-56f8-42eb-a043-d4bd295a88e4",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
