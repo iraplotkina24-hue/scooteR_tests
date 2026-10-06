@@ -1,0 +1,8 @@
+scooter_rent=# SELECT c.login, COUNT(o."courierId") AS orders_in_delivery FROM "Couriers" AS c LEFT JOIN "Orders" AS o ON c.id = o."courierId" WHERE o."inDelivery" = true GROUP BY c.login; 
+ login | orders_in_delivery 
+-------+--------------------
+ ira   |                  2
+ ninja |                  2
+(2 rows)
+
+scooter_rent=#
