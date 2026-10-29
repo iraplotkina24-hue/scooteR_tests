@@ -1,6 +1,6 @@
 import requests
-
-BASE_URL = "https://4365f57f-77fe-46d9-9d1b-66becc3a730d.serverhub.praktikum-services.ru/"
+# Цветкова Ирина, 46-я когорта — Финальный проект. Инженер по тестированию плюс
+BASE_URL = "https://1572b49c-92d9-4a14-9ff1-c777ae721211.serverhub.praktikum-services.ru/"
 
 def test_create_order_and_get_by_track():
     payload = {
@@ -28,3 +28,4 @@ def test_create_order_and_get_by_track():
 
     assert response_get.status_code == 200, f"Ошибка получения заказа: {response_get.status_code}"
     print(f"Заказ успешно получен по треку {track_number}")
+    print("Тест пройден")
